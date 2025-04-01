@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "dvora"
+version = "0.0.5"
+description = "Recognize simple functions by their behavior"
+authors = ["JFrog"]
+packages = [
+    {include = "dvora", from = "src" },
+]
+[tool.poetry.dependencies]
+
+python = "^3.11"
+attrs= "20.3.0"
+loguru = "0.5.1"
+more_itertools = "8.12.0"
+cached_property = "1.5.2"
+pyelftools = "0.32"
+unicorn = "1.0.3"
+capstone = "4.0.2"
+
