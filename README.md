@@ -61,10 +61,13 @@ You can use Ghidra to examine function addresses.
 You can also export functions addresses using the Jython script (included in this repository) named `ghidra_export_functions.py`.
 
 ## Upcoming Releases
-We are continuously expanding this repository with new supported functionalities. Stay tuned for additional releases based on our latest research!
+We are continuously expanding this repository with new supported functionalities. 
+
+Stay tuned for additional releases based on our latest research!
 
 ## How to Contribute
 We invite the security community to contribute to this initiative. 
+
 Feel free to submit an issue or a pull request. 
 
 ## License
