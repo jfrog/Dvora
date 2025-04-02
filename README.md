@@ -25,10 +25,15 @@ Poetry (Python package manager)
 
 ## Execution
 Clone the repository using the command:
-`git clone https://github.com/jfrog/Dvora.git`
+
+```
+git clone https://github.com/jfrog/Dvora.git
+```
 
 If you don’t have Poetry installed, use the command:
-`pip install poetry`
+```
+pip install poetry
+```
 
 Execute the following commands to install all dependencies:
 ```
@@ -37,14 +42,18 @@ poetry install
 ```
 
 To run Dvora, execute:
-`python3 demo.py <binary_file> <function_address>`
+```
+python3 demo.py <binary_file> <function_address>
+```
 
 Where:
-binary_file: The binary file you want to examine.
-function_address: The address of the function you want to examine.
+- binary_file: The binary file you want to examine.
+- function_address: The address of the function you want to examine.
 
 Example:
-`python3 demo.py /path/to/binary 401745`
+```
+python3 demo.py /path/to/binary 401745
+```
 
 ## How to Find Function Addresses?
 You can use Ghidra to examine function addresses. 
