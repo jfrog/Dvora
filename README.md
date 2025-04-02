@@ -57,7 +57,8 @@ python3 demo.py /path/to/binary 401745
 
 ## How to Find Function Addresses?
 You can use Ghidra to examine function addresses. 
-You can also export function addresses using the Jython script (included in this repository) named ghidra_export_functions.
+
+You can also export functions addresses using the Jython script (included in this repository) named `ghidra_export_functions.py`.
 
 ## Upcoming Releases
 We are continuously expanding this repository with new supported functionalities. Stay tuned for additional releases based on our latest research!
